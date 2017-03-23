@@ -1,0 +1,59 @@
+body{
+	background: #eee;
+	font-family: calibri;
+	font-size: 14px;
+}
+
+#block_reg{
+	margin: 0 auto;
+	border:1px solid #ddd;
+	background: #ddd;
+	padding: 20px;
+	max-width: 300px;
+}
+.reg_head{
+	text-align: center;
+	margin: 0;
+	padding:0 0 15px 0;
+}
+.reg_elem{
+	display: flex;
+	padding-bottom: 15px;
+}
+.reg_elem label{
+	width: 45%;
+}
+
+#reg_result{
+	margin: 10px auto;
+	max-width: 300px;
+}
+.reg_elem button{
+	width: 100%;
+    padding: 10px;
+}
+.warning{
+	padding-bottom: 10px;
+}
+.warn{
+	color: red;
+}
+/*.label{
+	width: 40%;
+}
+.input{
+	width: 60%;
+}*/
+.mistake{
+	padding-bottom: 5px;
+}
+.mistakes_head{
+	padding-bottom: 10px;
+	color: red;
+}
+.mistakes_foot{
+	padding-top: 10px;
+}
+.success{
+	color: green;
+}
